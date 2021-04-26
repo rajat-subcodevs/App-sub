@@ -10,9 +10,7 @@ export interface Props {
 
 
 class Com1 extends Component<Props,State>{
- constructor(props :Props){
-      super(props)
-   }
+
     render() {
         return (
             <div>
