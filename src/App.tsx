@@ -13,7 +13,7 @@ import Com2 from './components/com2'
 function App() {
   return (
     <div>
-      <BrowserRouter basename={'/live/'}>
+      <BrowserRouter basename={'/'}>
 
         <Route path="/" exact render={() => <Com></Com>} />
         <Route path="/r1/" render={() => <Com1></Com1>} />
